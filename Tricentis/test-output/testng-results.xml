@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Empty browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Application Main page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[TC_AM_EnterVehicleData_011_Test]]>
+    </line>
+    <line>
+      <![CDATA[Automobile module page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Automobile Enter Insurant page is not displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Gender radio button label is matched]]>
+    </line>
+    <line>
+      <![CDATA[Closed the browser session successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="162444" started-at="2023-01-24T20:11:58 IST" finished-at="2023-01-24T20:14:41 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="162444" started-at="2023-01-24T20:11:58 IST" finished-at="2023-01-24T20:14:41 IST">
+      <class name="automobileModule.TC_AM_EnterInsurantData_011_Test">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:automobileModule.TC_AM_EnterInsurantData_011_Test@2bbf4b8b]" name="browserSetUp" is-config="true" duration-ms="123347" started-at="2023-01-24T20:11:58 IST" finished-at="2023-01-24T20:14:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized]]>
+            </line>
+            <line>
+              <![CDATA[Application Main page is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="TC_AM_EnterInsurantData_011()[pri:0, instance:automobileModule.TC_AM_EnterInsurantData_011_Test@2bbf4b8b]" name="TC_AM_EnterInsurantData_011" duration-ms="37738" started-at="2023-01-24T20:14:02 IST" finished-at="2023-01-24T20:14:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_AM_EnterVehicleData_011_Test]]>
+            </line>
+            <line>
+              <![CDATA[Automobile module page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Automobile Enter Insurant page is not displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Gender radio button label is matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_AM_EnterInsurantData_011 -->
+        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:automobileModule.TC_AM_EnterInsurantData_011_Test@2bbf4b8b]" name="browserTearDown" is-config="true" duration-ms="1250" started-at="2023-01-24T20:14:39 IST" finished-at="2023-01-24T20:14:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed the browser session successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- automobileModule.TC_AM_EnterInsurantData_011_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
